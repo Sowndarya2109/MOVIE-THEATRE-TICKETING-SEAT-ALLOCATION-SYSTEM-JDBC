@@ -3,6 +3,12 @@ A console-based Java application that manages movie shows, seat availability, an
 The system supports show management, seat booking, cancellation, and transaction safety with proper exception handling.
 
 PROJECT STRUCTURE:
+
+
+
+
+
+
 <img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/ff0d219a-dc60-466c-aee1-6c30c0e87c9c" />
 
 FEATURES:
@@ -27,5 +33,11 @@ HOW TO RUN:
 4.Observe console output for booking and cancellation status
 
 OUTPUT:
+
+
+
+
+
+
 <img width="527" height="150" alt="image" src="https://github.com/user-attachments/assets/2625c034-dd48-4c02-8e36-54ca043ddbd0" />
 
