@@ -23,9 +23,15 @@ Booking_Date DATE,
 Status VARCHAR2(15)
 );
 
-
 INSERT INTO BOOKING_TBL VALUES (120001,'SHW1001','Ananya Rao',4, TO_DATE('2025-03-15','YYYY-MM-DD'), 'CONFIRMED');
 INSERT INTO BOOKING_TBL VALUES (120002,'SHW2001','Vikram Joshi',2, TO_DATE('2025-03-16','YYYY-MM-DD'), 'CONFIRMED');
 INSERT INTO BOOKING_TBL VALUES (120003,'SHW3001','Ramesh Gupta',6, TO_DATE('2025-03-10','YYYY-MM-DD'), 'CANCELLED');
 
+SEQUENCE CREATION:
+create sequence bookingId_seq2
+start with 1001
+minvalue 1001
+maxvalue 9999
+increment by 1;
 
+select bookingId_seq2.NEXTVAL from dual;
